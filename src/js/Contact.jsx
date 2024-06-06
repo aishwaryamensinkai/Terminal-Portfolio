@@ -29,7 +29,7 @@ const Contact = () => {
   };
 
   const goBack = () => {
-    window.location.href = "/";
+    navigate("/");
   };
 
   return (
