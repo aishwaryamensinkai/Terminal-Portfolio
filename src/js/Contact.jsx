@@ -30,6 +30,7 @@ const Contact = () => {
 
   const goBack = () => {
     navigate("/");
+    window.location.href = "/";
   };
 
   return (
