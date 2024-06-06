@@ -36,7 +36,7 @@ function Terminal() {
     while (id--) {
       clearInterval(id);
     }
-    setText1("ssh guest@aishwaryamensinkai.r");
+    setText1("ssh guest@aishwaryamensinkai");
     setText3("Access Granted!");
   }
 
@@ -53,8 +53,8 @@ function Terminal() {
           while (id--) {
             clearInterval(id);
           }
-          setText1("ssh guest@aishwaryamensinkai.r");
-          setText2("guest@aishwaryamensinkai.r's password:");
+          setText1("ssh guest@aishwaryamensinkai");
+          setText2("guest@aishwaryamensinkai's password:");
           setText3("Access Granted!");
         }
         const CommandArea = document.getElementById("command");
@@ -62,7 +62,7 @@ function Terminal() {
           previousCommand = CommandArea.value;
           setprevusedCommand((prevArray) => [
             ...prevArray,
-            "guest@aishwaryamensinkai.r:~$ " + previousCommand,
+            "guest@aishwaryamensinkai:~$ " + previousCommand,
           ]);
           if (previousCommand === "github") {
             window.open("https://github.com/aishwaryamensinkai", "_blank");
@@ -131,10 +131,10 @@ function Terminal() {
       }
     });
 
-    Typewriter("ssh guest@aishwaryamensinkai.r", 100, setText1);
+    Typewriter("ssh guest@aishwaryamensinkai", 100, setText1);
 
     setTimeout(() => {
-      setText2("guest@aishwaryamensinkai.r's password:▮");
+      setText2("guest@aishwaryamensinkai's password:▮");
     }, 3000);
 
     setTimeout(() => {
@@ -142,11 +142,11 @@ function Terminal() {
     }, 4300);
 
     setTimeout(() => {
-      setText3("Connecting to guest@aishwaryamensinkai.r...");
+      setText3("Connecting to guest@aishwaryamensinkai...");
     }, 4300);
 
     setTimeout(() => {
-      setText2("guest@aishwaryamensinkai.r's password:");
+      setText2("guest@aishwaryamensinkai's password:");
       setText3("> Access granted.");
     }, 7300);
 
@@ -275,7 +275,7 @@ function Terminal() {
     history: () => {
       playSound("textPrint");
       return prevusedCommand.map((cmd, index) => (
-        <li key={index}>{cmd.replace("guest@aishwaryamensinkai.r:~$ ", "")}</li>
+        <li key={index}>{cmd.replace("guest@aishwaryamensinkai:~$ ", "")}</li>
       ));
     },
     project: () => {
@@ -398,7 +398,7 @@ function Terminal() {
       return (
         <div>
           <li key="aborthack">
-            guest@aishwaryamensinkai.r:~$ ERROR - Script terminated by the user
+            guest@aishwaryamensinkai:~$ ERROR - Script terminated by the user
           </li>
         </div>
       );
@@ -570,7 +570,7 @@ function Terminal() {
         <br></br>
         <ul className="previousCommands" id="console23">
           {prevusedCommand.map((item, index) => {
-            const command = item.replace("guest@aishwaryamensinkai.r:~$ ", "");
+            const command = item.replace("guest@aishwaryamensinkai:~$ ", "");
             if (commandActions[command]) {
               return (
                 <li key={index}>
@@ -601,7 +601,7 @@ function Terminal() {
         </ul>
         {Text3.includes("Access") ? (
           <span className="commands">
-            <span className="userPrefix">guest@aishwaryamensinkai.r:~$</span>{" "}
+            <span className="userPrefix">guest@aishwaryamensinkai:~$</span>{" "}
             <input type="text" id="command" name="command" autoFocus></input>
           </span>
         ) : (
