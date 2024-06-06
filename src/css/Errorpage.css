@@ -1,0 +1,51 @@
+.error-container {
+  background-color: #300A24 !important;
+  color: #a94442;
+  padding: 20px;
+  border: 1px solid #022844;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  box-shadow: 0 0 10px 7px rgba(255, 255, 255, 0.1);
+  margin: 20px;
+  margin-top: 150px;
+  margin-left: 350px;
+}
+
+@media only screen and (max-width: 768px) {
+  .error-container {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.error-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #f56103;
+}
+
+.error-message {
+  margin: 10px 0;
+  font-size: 16px;
+  color: white;
+}
+
+.error-code {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: red;
+}
+
+.error-stacktrace {
+  background-color: #011727;
+  color: #fce283;
+  padding: 10px;
+  border: 1px solid #e1e1e8;
+  border-radius: 3px;
+  white-space: pre-wrap;
+  font-family: "Courier New", Courier, monospace;
+}

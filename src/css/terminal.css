@@ -1,0 +1,362 @@
+@import "https://fonts.googleapis.com/css?family=Inconsolata";
+
+.terminal {
+  color: white;
+  font-family: Inconsolata, sans-serif, Arial, Helvetica;
+  font-size: medium;
+  line-height: 1.2;
+  background-color: #300A24 !important;
+  height: auto;
+}
+
+.aboutme {
+  width: 50%;
+  color: rgb(194, 181, 147);
+}
+
+.previousCommands {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+#command {
+  width: 100%;
+  background: none;
+  border: 0px;
+  font-family: Inconsolata, Arial, Helvetica, sans-serif;
+  font-size: medium;
+  color: white;
+}
+
+.mcq-wrapper {
+  position: relative;
+}
+
+.mcq {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 200px;
+  overflow-y: auto;
+  border: none;
+}
+
+.mcq-option {
+  padding: 1px;
+  cursor: pointer;
+}
+
+.mcq-option:hover a {
+  background-color: #f2f2f2;
+  color: black;
+}
+
+.mcq-option:hover {
+  background-color: #f2f2f2;
+  color: black;
+  width: 280px;
+}
+
+a {
+  color: wheat;
+  text-decoration: none;
+}
+
+.commands {
+  display: flex;
+  gap: 5px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+}
+
+#skipButton {
+  position: absolute;
+  right: 2%;
+  font-style: italic;
+  color: gray;
+}
+
+.console {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.userPrefix {
+  margin-right: 7px;
+  color: rgb(7, 187, 7);
+}
+
+@media screen and (max-width: 768px) {
+  #skipButton {
+    font-size: medium;
+    position: absolute;
+    bottom: 2%;
+  }
+
+  .terminal {
+    font-size: medium;
+    height: auto;
+  }
+
+  .aboutme {
+    width: 100%;
+  }
+
+  .console {
+    padding: 10px;
+  }
+
+  .userPrefix {
+    margin-right: 3px;
+  }
+
+  .commands {
+    flex-direction: column;
+  }
+
+  #command {
+    width: 100%;
+  }
+}
+
+.resume {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid white;
+  border-radius: 0.6rem;
+  font-family: monospace;
+  font-size: 14px;
+  margin-top: 1rem;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+hr {
+  width: 100%;
+  border: 0.1vw solid var(--color-text);
+  border-radius: 1rem;
+}
+
+a {
+  color: var(--color-text);
+  text-decoration: underline;
+  font-weight: 900;
+  padding: 0 0.4rem 0 0.4rem;
+}
+
+a:hover,
+a:focus {
+  background-color: var(--color-terminal-text);
+  color: rgb(0, 140, 255);
+}
+
+strong {
+  font-weight: 900;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.header p {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  row-gap: 0.4rem;
+  white-space: pre;
+}
+
+.education > *,
+.professional-experience > *,
+.projects > *,
+.skills > *,
+.achievements-and-certifications > * {
+  padding-bottom: 0.5rem;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.education-item,
+.professional-experience-item {
+  display: grid;
+}
+
+.education-item > *:nth-child(2n + 2),
+.professional-experience-item > *:nth-child(2n + 2) {
+  text-align: right;
+}
+
+.professional-experience-item > ul,
+.projects-item > ul,
+.skills > ul,
+.achievements-and-certifications > ul {
+  padding-left: 2rem;
+  padding-top: 0.25rem;
+}
+
+.precss {
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+
+.certi {
+  ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    /* Clear floats */
+  }
+
+  li {
+    float: left;
+    width: 50%;
+    /* Two items in a row */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .console {
+    padding: 10px;
+  }
+
+  .userPrefix {
+    margin-right: 3px;
+  }
+
+  .commands {
+    flex-direction: column;
+  }
+
+  #command {
+    width: 100%;
+  }
+
+  #skipButton {
+    font-size: medium;
+    position: absolute;
+    bottom: 2%;
+  }
+
+  .terminal {
+    font-size: medium;
+    height: auto;
+  }
+
+  .aboutme {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .contact-form {
+    margin-top: 50px !important;
+  }
+}
+
+.contact-form {
+  margin-top: 50px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  font-family: Ubuntu, sans-serif;
+}
+
+.contact-form .title-bar {
+  background-color: #2c2c2c;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 5px 5px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-form .title-bar .title {
+  font-size: 18px;
+}
+
+.contact-form .title-bar .controls {
+  display: flex;
+  gap: 5px;
+}
+
+.contact-form .title-bar .controls div {
+  width: 15px;
+  height: 15px;
+  background-color: #888;
+  border-radius: 50%;
+}
+
+.contact-form .title-bar .controls .close {
+  background-color: #e06c75;
+}
+
+.contact-form .content {
+  padding: 20px;
+}
+
+.contact-form ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-form li {
+  margin-bottom: 15px;
+}
+
+.contact-form .half {
+  display: inline-block;
+  width: 48%;
+}
+
+.contact-form .half:first-child {
+  margin-right: 4%;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="submit"],
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #ffffff;
+  color: #333;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.contact-form input[type="submit"] {
+  background-color: #4caf50;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: auto;
+  padding: 10px 20px;
+}
+
+.contact-form input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  height: 150px;
+}

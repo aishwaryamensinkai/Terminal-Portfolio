@@ -1,0 +1,111 @@
+.installer {
+  background-color: #d3d7cf;
+  border: 1px solid #888a85;
+  width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 5px;
+  font-family: monospace;
+  color: #2e3436;
+  margin-top: 120px;
+}
+
+.installer-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.installer-description {
+  margin-bottom: 20px;
+}
+
+.installer-content {
+  background-color: #204a87;
+  color: #ffffff;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.installer-options {
+  background-color: #204a87;
+  color: #ffffff;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.form-fields {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-fields input,
+.form-fields textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.form-fields input::placeholder,
+.form-fields textarea::placeholder {
+  color: #888a85;
+}
+
+.form-fields textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+.installer-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.installer-buttons button {
+  background-color: #babdb6;
+  color: #2e3436;
+  border: 1px solid #888a85;
+  border-radius: 3px;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+.installer-buttons button:hover {
+  background-color: #888a85;
+}
+@media (max-width: 600px) {
+  .installer-buttons {
+    flex-direction: column;
+  }
+
+  .installer-buttons button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .installer {
+    width: 80%;
+    margin-top: 100px;
+  }
+
+  .installer-title {
+    font-size: 1.5rem;
+  }
+
+  .installer-description {
+    font-size: 0.9rem;
+  }
+
+  .form-fields input,
+  .form-fields textarea {
+    font-size: 16px;
+  }
+
+  .installer-buttons button {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+}
