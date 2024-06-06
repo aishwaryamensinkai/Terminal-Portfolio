@@ -28,11 +28,6 @@ const Contact = () => {
       );
   };
 
-  const goBack = () => {
-    navigate("/");
-    window.location.href = "/";
-  };
-
   return (
     <div className="installer">
       <h2 className="installer-title">[!] Contact Form</h2>
@@ -60,10 +55,7 @@ const Contact = () => {
               ></textarea>
             </div>
             <div className="installer-buttons">
-              <button type="button" onClick={goBack}>
-                Go Back
-              </button>
-              <button type="submit">Continue</button>
+              <button type="submit">Submit</button>
             </div>
           </form>
         </div>
