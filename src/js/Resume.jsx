@@ -102,10 +102,80 @@ const Resume = () => {
         </div>
         <div className="professional-experience-item">
           <strong>
-            Co-op Program Student Employee as Web Developer, Syracuse University
-            – Syracuse, New York{" "}
+            Software Engineer, Anicca Data Science Solutions (Client:
+            Microsoft), – Bellevue, WA{" "}
           </strong>
-          <strong>November 2022 - June 2023</strong>
+          <strong>January 2025 - Present</strong>
+          <ul style={{ textAlign: "justify" }}>
+            <li>
+              Developed and deployed post-installation cleanup automation for
+              Microsoft Azure blade servers to ensure optimal system hygiene and
+              resource utilization. The scripts removed redundant logs,
+              temporary files, and configuration remnants following server
+              provisioning, aligning with datacenter best practices and
+              improving deployment consistency.
+            </li>
+            <li>
+              Collaborated with Microsoft’s engineering team to integrate the
+              cleanup process into existing provisioning workflows, contributing
+              to smoother and more efficient infrastructure rollouts across
+              Azure data centers.
+            </li>
+            <li>
+              In parallel, contributed to an internal infrastructure tooling
+              project at Anicca, focused on enhancing backend automation
+              workflows. Participated in refining Python-based scripts and CI/CD
+              processes that supported server-side operations, improving script
+              maintainability and automation reliability.
+            </li>
+            <li>
+              Worked in Agile sprints, engaging in team discussions, code
+              reviews, and iterative improvements to internal tools used across
+              Anicca's engineering organization.
+            </li>
+          </ul>
+        </div>
+        <div className="professional-experience-item">
+          <strong>
+            Software Development Engineer, Syracuse University – Syracuse, New
+            York{" "}
+          </strong>
+          <strong>July 2024 - January 2025</strong>
+          <ul style={{ textAlign: "justify" }}>
+            <li>
+              Architected and deployed the AI-driven Smart Study Planner SaaS
+              platform, taking complete ownership from design to deployment.
+              This included implementing predictive scheduling algorithms
+              powered by LLMs to optimize study plans based on user behavior and
+              learning patterns.
+            </li>
+            <li>
+              Engineered a highly responsive, component-based frontend using
+              React and Tailwind CSS, focusing on custom UI/UX design patterns
+              to optimize engagement while addressing cross-device compatibility
+              and accessibility.
+            </li>
+            <li>
+              Designed and implemented secure, scalable authentication and
+              real-time database architectures in Firebase, ensuring compliance
+              with data privacy standards while optimizing for low-latency,
+              concurrent user interactions.
+            </li>
+            <li>
+              Developed and fine-tuned AI models, integrating LLMs for adaptive
+              learning path generation. Leveraged continuous user feedback loops
+              to refine recommendations, employing Agile-driven iterative
+              development to align with diverse academic workflows and
+              constraints.
+            </li>
+          </ul>
+        </div>
+        <div className="professional-experience-item">
+          <strong>
+            Software Engineer(Co-op Program Student Employee on campus),
+            Syracuse University – Syracuse, New York{" "}
+          </strong>
+          <strong>October 2022 - April 2023</strong>
           <ul style={{ textAlign: "justify" }}>
             <li>
               Transformed Associated Gastroenterologists of CNY, PC website with
@@ -126,7 +196,8 @@ const Resume = () => {
         </div>
         <div className="professional-experience-item">
           <strong>
-            Software Engineer, Anicca Data Science Solutions – Bangalore, India{" "}
+            Software Engineer, Anicca Data Science Solutions (Client: McDonald)
+            – Bangalore, India{" "}
           </strong>
           <strong>March 2022 - July 2022 </strong>
           <ul style={{ textAlign: "justify" }}>
@@ -152,10 +223,10 @@ const Resume = () => {
         </div>
         <div className="professional-experience-item">
           <strong>
-            Engineer-Trainee, Pelatro Solutions Private Limited – Bangalore,
+            Software Engineer, Pelatro Solutions Private Limited – Bangalore,
             India{" "}
           </strong>
-          <strong>August 2021 - February 2022</strong>
+          <strong>August 2021 - March 2022</strong>
           <ul style={{ textAlign: "justify" }}>
             <li>
               Revised mViva product performance with cutting-edge algorithms,
@@ -175,7 +246,7 @@ const Resume = () => {
           </ul>
         </div>
         <div className="professional-experience-item">
-          <strong>Web Development Intern, Felicity – Jaipur, India </strong>
+          <strong>Frontend Web Developer, Felicity – Jaipur, India </strong>
           <strong>April 2021 - July 2021</strong>
           <ul style={{ textAlign: "justify" }}>
             <li>
@@ -290,22 +361,35 @@ const Resume = () => {
         </div>
         <ul>
           <li>
-            <strong>Programming Languages :</strong> C | C++ | SQL | HTML5 | CSS
-            | JavaScript | Typescript | Python | Java | SQL | HTML
+            <strong>Web and Front-End Technologies :</strong> HTML/HTML5, CSS3,
+            XML, JavaScript, AJAX, jQuery, JSON, Bootstrap, Angular.js, Node.js,
+            React.js, React Native, Swift, Flask, WebSocket
           </li>
           <li>
-            <strong>Frameworks :</strong> React.js | Angular.js | Node.js |
-            Flutter | Firebase | RESTful APIs | Graphql | MongoDB | MySQL |
-            Swift UI | PostgreSQL
+            <strong>Back-End Technologies and Databases :</strong> Node.js,
+            .NET, Express.js, MySQL, SQL Server, JDBC, NoSQL, MongoDB
           </li>
           <li>
-            <strong>Operating Systems :</strong> Linux Distribution (Ubuntu,
-            Kali) | Windows 10 | Mac OS | Virtualization.
+            <strong>Languages :</strong> Java, C++, Python, C, TypeScript, C#,
+            Hack (Eager to learn)
           </li>
           <li>
-            <strong>Software :</strong> MS Word, PowerPoint, Excel | VS Code |
-            Postman | Eclipse | Git | WordPress | Spring Boot | Gradle | Xcode |
-            Android Studio | Figma
+            <strong>Frameworks :</strong> Spring Boot, Angular, Docker,
+            Hibernate, Kubernetes
+          </li>
+          <li>
+            <strong>Development Tools :</strong> Visual Studio Code, IntelliJ,
+            Eclipse, Spring Tool Suite, Postman, SOAP UI, Jenkins, JIRA,
+            Confluence, PowerShell
+          </li>
+          <li>
+            <strong>
+              Cloud Platforms, Operating Systems & Version Control :
+            </strong>
+            AWS, Windows, macOS, Linux, Git, GitHub, GitLab
+          </li>
+          <li>
+            <strong>Methodologies :</strong> Agile/Scrum, Waterfall
           </li>
         </ul>
       </div>
