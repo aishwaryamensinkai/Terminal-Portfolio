@@ -102,146 +102,149 @@ const Resume = () => {
         </div>
         <div className="professional-experience-item">
           <strong>
-            Software Engineer, Anicca Data Science Solutions (Client:
-            Microsoft), – Bellevue, WA{" "}
+            Software Engineer, Microsoft (via Anicca Data Science Solutions) , –
+            Bellevue, WA{" "}
           </strong>
           <strong>January 2025 - Present</strong>
           <ul style={{ textAlign: "justify" }}>
             <li>
-              Developed and deployed post-installation cleanup automation for
-              Microsoft Azure blade servers to ensure optimal system hygiene and
-              resource utilization. The scripts removed redundant logs,
-              temporary files, and configuration remnants following server
-              provisioning, aligning with datacenter best practices and
-              improving deployment consistency.
+              Collaborated on automation of Linux hardware testing and AutoBSL
+              injection, reducing setup time by 80% and contributing to
+              $60K/month in team savings across 100+ weekly server deployments.
             </li>
             <li>
-              Collaborated with Microsoft’s engineering team to integrate the
-              cleanup process into existing provisioning workflows, contributing
-              to smoother and more efficient infrastructure rollouts across
-              Azure data centers.
+              Automated post-install cleanup on Azure blade servers using C# and
+              integrated secure workflows into provisioning pipelines, reducing
+              manual errors by 60% and improving system hygiene, rollout
+              efficiency, and performance consistency across global data
+              centers.
             </li>
             <li>
-              In parallel, contributed to an internal infrastructure tooling
-              project at Anicca, focused on enhancing backend automation
-              workflows. Participated in refining Python-based scripts and CI/CD
-              processes that supported server-side operations, improving script
-              maintainability and automation reliability.
+              Led Proxmox-based distributed system and high-availability cluster
+              setup for Anicca supporting dynamic scaling and 99.99% uptime,
+              improving service continuity and cutting downtime risk by 40%.
             </li>
             <li>
-              Worked in Agile sprints, engaging in team discussions, code
-              reviews, and iterative improvements to internal tools used across
-              Anicca's engineering organization.
+              Coordinated Agile sprints and on-call support, cutting incident
+              resolution time by 35%, boosting backend reliability across cloud
+              services.
+            </li>
+            <li>
+              Developed and maintained backend services for an HR application
+              tool using Java and Spring Boot, applying TDD with JUnit and
+              Mockito to ensure 90%+ test coverage and robust functionality
+            </li>
+            <li>
+              Implemented GitLab CI pipelines to automate build, test, and
+              deployment, improving delivery speed and reducing integration
+              issues for the HR platform
+            </li>
+            <li>
+              Built responsive and accessible user interfaces in React, HTML5,
+              CSS3, and JavaScript, enabling seamless cross-device experience
+              for internal HR operations and reducing support requests by 25%
             </li>
           </ul>
         </div>
         <div className="professional-experience-item">
           <strong>
-            Software Development Engineer, Syracuse University – Syracuse, New
+            Full Stack Developer, ECS at Syracuse University – Syracuse, New
             York{" "}
           </strong>
           <strong>January 2024 - January 2025</strong>
           <ul style={{ textAlign: "justify" }}>
             <li>
-              Architected and deployed the AI-driven Smart Study Planner SaaS
-              platform, taking complete ownership from design to deployment.
-              This included implementing predictive scheduling algorithms
-              powered by LLMs to optimize study plans based on user behavior and
-              learning patterns.
+              Led full-stack development of an AI-powered Smart Study Planner
+              SaaS using OpenAI LLMs, Firebase, and Firestore, delivering
+              personalized study plans with less than 100ms latency and
+              supporting 500+ active users.
             </li>
             <li>
-              Engineered a highly responsive, component-based frontend using
-              React and Tailwind CSS, focusing on custom UI/UX design patterns
-              to optimize engagement while addressing cross-device compatibility
-              and accessibility.
+              Built a responsive frontend with Next.js, Tailwind CSS, and Redux
+              using reusable components and custom hooks, increasing
+              accessibility scores by 30% and improving UX across devices.
             </li>
             <li>
-              Designed and implemented secure, scalable authentication and
-              real-time database architectures in Firebase, ensuring compliance
-              with data privacy standards while optimizing for low-latency,
-              concurrent user interactions.
-            </li>
-            <li>
-              Developed and fine-tuned AI models, integrating LLMs for adaptive
-              learning path generation. Leveraged continuous user feedback loops
-              to refine recommendations, employing Agile-driven iterative
-              development to align with diverse academic workflows and
-              constraints.
+              Implemented CI/CD with GitHub Actions and Vercel for secure,
+              automated testing and zero-downtime deploys, cutting release time
+              by 70%; integrated analytics and WCAG-compliant design to raise
+              engagement by 20% and lower bounce rate.
             </li>
           </ul>
         </div>
         <div className="professional-experience-item">
           <strong>
-            Software Engineer(Co-op Program Student Employee on campus),
-            Syracuse University – Syracuse, New York{" "}
+            Frontend Developer, CASE Co-op at Syracuse University – Syracuse,
+            New York{" "}
           </strong>
           <strong>October 2022 - July 2023</strong>
           <ul style={{ textAlign: "justify" }}>
             <li>
-              Transformed Associated Gastroenterologists of CNY, PC website with
-              WordPress, revamping UI/UX for better engagement. Increased
-              average session duration by 25%, reducing bounce rate by 15%.
+              Redesigned the legacy patient portal for Associated
+              Gastroenterologists using Figma and WordPress, collaborating with
+              clinical teams to prioritize content and boost patient adoption by
+              30%.
             </li>
             <li>
-              Developed new tailored pages to showcase expertise and services,
-              boosting organic traffic by 30%, resulting in 20% more appointment
-              requests.
+              Built responsive interfaces with HTML, CSS, JavaScript,
+              integrating Elementor and WPForms to streamline workflows and
+              enhance usability across devices; incorporated feedback from
+              patients and staff to iteratively improve UI/UX and performance.
             </li>
             <li>
-              Engaged closely with stakeholders to align enhancements with
-              organizational goals, achieved a 95% stakeholder satisfaction
-              rating, ensuring seamless integration of new features.
+              Optimized page load speed, embedded Google Analytics, and enforced
+              SEO with structured metadata and alt tags; ensured HIPAA-compliant
+              handling of sensitive data, increasing appointment bookings by
+              20%.
             </li>
           </ul>
         </div>
         <div className="professional-experience-item">
           <strong>
-            Software Engineer, Anicca Data Science Solutions (Client: McDonald)
-            – Bangalore, India{" "}
+            Software Engineer, McDonald (via Anicca Data Science Solutions) –
+            Bangalore, India{" "}
           </strong>
           <strong>March 2022 - July 2022 </strong>
           <ul style={{ textAlign: "justify" }}>
             <li>
-              Spearheaded overhaul of RFM application for McDonald's, boosting
-              functionality and user experience through implementation of
-              Angular, HTML, CSS and Typescript, resulting in a 55% increase in
-              user engagement.
+              Rebuilt the Restaurant File Maintenance (RFM) portal using
+              Angular, enhancing analysis of customer and crew data and enabling
+              data-driven strategic decisions through actionable insights.
             </li>
             <li>
-              Pioneered transformation of McDonald's restaurant profiles,
-              supplementing Angular, HTML, CSS, and Typescript to develop a
-              modernized version of legacy application, attaining a 40%
-              improvement in application performance and scalability.
+              Engineered seamless frontend–backend integration to ensure
+              efficient data flow and performance; refined UI based on user
+              feedback, improving usability and empowering management with key
+              insights.
             </li>
             <li>
-              Orchestrated seamless collaboration with cross-functional teams to
-              ensure rigorous testing and integration of front-end UI with
-              server-side functionalities, guaranteeing 100% user input
-              validation and a 50% reduction in bug occurrences.
+              Achieved 100% user input validation and reduced frontend bugs by
+              implementing robust form handling and automated tests with Jest
+              and Selenium: improved page load time by 30% with optimized
+              rendering and API handling.
             </li>
           </ul>
         </div>
         <div className="professional-experience-item">
-          <strong>
-            Software Engineer, Pelatro Solutions Private Limited – Bangalore,
-            India{" "}
-          </strong>
+          <strong>Software Engineer, Pelatro – Bangalore, India </strong>
           <strong>August 2021 - March 2022</strong>
           <ul style={{ textAlign: "justify" }}>
             <li>
-              Revised mViva product performance with cutting-edge algorithms,
-              leading to a 20% increase in offer retrieval efficiency from
-              customer call data.
+              Developed Java and Spring Boot tools to automate backend testing
+              workflows for telecom CRM systems, reducing post-release bugs by
+              95% and ensuring robust deployments for tier-1 telecom operators.
             </li>
             <li>
-              Translated requirements into robust test solutions, executing
-              Java-based plans to resolve issues, accomplishing a 95% reduction
-              in post-release bugs.
+              Optimized mViva data pipelines and subscriber data models to
+              improve offer targeting and retrieval efficiency by 20% across
+              large-scale telecom campaigns, while contributing to
+              Hibernate–Spring Boot integration for backend consistency.
             </li>
             <li>
-              Participated in achieving 100% test coverage through requirement
-              analysis and collaboration, ensuring seamless product
-              functionality.
+              Built and secured RESTful APIs integrating third-party telecom
+              services provisioning, usage tracking, and billing while ensuring
+              100% test coverage (JUnit, Mockito), conducting Git Flow-based
+              code reviews, and enabling timely delivery in Agile sprints.
             </li>
           </ul>
         </div>
@@ -269,8 +272,10 @@ const Resume = () => {
           </ul>
         </div>
         <div className="professional-experience-item">
-          <strong>Intern, Transil.Inc – Hubballi, India </strong>
-          <strong>January 2019 - May 2019</strong>
+          <strong>
+            Software Engineer Intern, Transil.Inc – Hubballi, India{" "}
+          </strong>
+          <strong>April 2020 - March 2021</strong>
           <ul style={{ textAlign: "justify" }}>
             <li>
               Presented a robust Hotel Management database model, integrating
@@ -302,6 +307,29 @@ const Resume = () => {
         <div>
           <h2>PROJECTS</h2>
           <hr style={{ borderTop: "1px solid white" }} />
+        </div>
+        <div className="professional-experience-item">
+          <strong>
+            CodeSentinel AI: AI-Powered Secure Code Analysis & Cybersecurity
+            Learning Module
+          </strong>
+          <ul style={{ textAlign: "justify" }}>
+            <li>
+              Designing a modular React frontend with a Node.js and Supabase
+              backend for real-time detection of OWASP Top 10 vulnerabilities.
+            </li>
+            <li>
+              Integrating OpenAI and custom ML models to identify contextual
+              threats, suggest secure code fixes, and power real-time scoring
+              dashboards with less than 200ms latency.
+            </li>
+            <li>
+              Developing AI-led CTF walkthroughs and tool demos (Burp Suite,
+              Nmap, Wireshark); planning Dockerized microservices AWS deployment
+              with CI/CD via GitHub Actions, targeting 80% test coverage and 1K+
+              beta users.
+            </li>
+          </ul>
         </div>
         <div className="professional-experience-item">
           <strong>TradeMaster: Revolutionizing Crypto Insights</strong>
@@ -361,32 +389,31 @@ const Resume = () => {
         </div>
         <ul>
           <li>
-            <strong>Web and Front-End Technologies :</strong> HTML/HTML5, CSS3,
-            XML, JavaScript, AJAX, jQuery, JSON, Bootstrap, Angular.js, Node.js,
-            React.js, React Native, Swift, Flask, WebSocket
+            <strong>Languages & Frameworks :</strong> Python, Java, C++, C#,
+            JavaScript, TypeScript, PowerShell, Node.js, Express, Flask, .NET
+            (basic), Spring Boot, Hibernate, Gradle
           </li>
           <li>
-            <strong>Back-End Technologies and Databases :</strong> Node.js,
-            .NET, Express.js, MySQL, SQL Server, JDBC, NoSQL, MongoDB
+            <strong>CS Fundamentals :</strong> Data Structures, Algorithms, OOP
           </li>
           <li>
-            <strong>Languages :</strong> Java, C++, Python, C, TypeScript, C#,
-            Hack (Eager to learn)
+            <strong>Web & Tools: </strong> HTML5, CSS3, AJAX, JSON, Bootstrap,
+            Tailwind, React, Angular, Next.js, Swift, WebSocket, REST APIs,
+            Firebase
           </li>
           <li>
-            <strong>Frameworks :</strong> Spring Boot, Angular, Docker,
-            Hibernate, Kubernetes
+            <strong>DevOps & Cloud :</strong> AWS (EC2, S3, RDS, Lambda, IAM),
+            Firebase, Docker, Kubernetes, Jenkins, GitHub Actions, Git, GitHub,
+            GitLab
           </li>
           <li>
-            <strong>Development Tools :</strong> Visual Studio Code, IntelliJ,
-            Eclipse, Spring Tool Suite, Postman, SOAP UI, Jenkins, JIRA,
-            Confluence, PowerShell
+            <strong>Databases & Others :</strong> MySQL, SQL Server, JDBC,
+            MongoDB, NoSQL, VS Code, IntelliJ, Eclipse, Postman, SOAP UI,
+            Lighthouse, JIRA, Confluence, Agile, Waterfall
           </li>
           <li>
-            <strong>
-              Cloud Platforms, Operating Systems & Version Control :
-            </strong>
-            AWS, Windows, macOS, Linux, Git, GitHub, GitLab
+            <strong>Operating Systems :</strong>
+            Windows, macOS, Linux
           </li>
           <li>
             <strong>Methodologies :</strong> Agile/Scrum, Waterfall

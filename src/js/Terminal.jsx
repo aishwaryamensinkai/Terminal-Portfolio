@@ -100,7 +100,7 @@ function Terminal() {
           "pwd",
           "hacksim",
           "aborthack",
-          // "resume",
+          "resume",
           "source code",
           "github",
           "sudo rm -rf",
@@ -250,7 +250,7 @@ function Terminal() {
             '<span class="command">clear &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - </span>  <span class="helpdes">Clear the terminal screen</span>',
             '<span class="command">date  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;         - </span> <span class="helpdes">Display the current date</span>',
             '<span class="command">GUI  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;          - </span>    <span class="helpdes">Open the Portfolio Website</span>',
-            // '<span class="command">resume &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - </span> <span class="helpdes">Display my resume</span>',
+            '<span class="command">resume &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - </span> <span class="helpdes">Display my resume</span>',
             '<span class="command">help  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;         - </span>     <span class="helpdes">Show available commands</span>',
             '<span class="command">history &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      - </span> <span class="helpdes">View command history</span>',
             '<span class="command">project &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      - </span>    <span class="helpdes">View coding projects</span>',
@@ -403,10 +403,10 @@ function Terminal() {
         </div>
       );
     },
-    // resume: () => {
-    //   playSound("textPrint");
-    //   return <Resume />;
-    // },
+    resume: () => {
+      playSound("textPrint");
+      return <Resume />;
+    },
     ls: () => {
       playSound("textPrint");
       return commandActions.help();
