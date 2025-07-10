@@ -442,13 +442,33 @@ const Resume = () => {
     );
   };
 
+  const summary = () => {
+    return (
+      <div className="professional-experience">
+        <div>
+          <h2>SUMMARY</h2>
+          <hr style={{ borderTop: "1px solid white" }} />
+        </div>
+        <div className="professional-experience-item">
+          Full-stack Software Engineer with 3.5+ years of experience delivering
+          secure, scalable web apps and automating cloud infrastructure for
+          brands like Microsoft and McDonald’s. Skilled in React, Node.js,
+          Spring Boot, Firebase, CI/CD, and AI integration across enterprise and
+          SaaS platforms. Delivered 70% faster releases, 95% bug reduction, and
+          30% UX improvements in production environments.
+        </div>
+      </div>
+    );
+  };
+
   return (
     <div className="output resume">
       {getHeader()}
+      {summary()}
+      {getProfessionalExperience()}
       {getEducation()}
       {getSkills()}
       {getCertifications()}
-      {getProfessionalExperience()}
       {getProjects()}
     </div>
   );
