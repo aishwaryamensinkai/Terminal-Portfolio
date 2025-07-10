@@ -140,7 +140,7 @@ const Resume = () => {
             Software Development Engineer, Syracuse University – Syracuse, New
             York{" "}
           </strong>
-          <strong>July 2024 - January 2025</strong>
+          <strong>January 2024 - January 2025</strong>
           <ul style={{ textAlign: "justify" }}>
             <li>
               Architected and deployed the AI-driven Smart Study Planner SaaS
@@ -175,7 +175,7 @@ const Resume = () => {
             Software Engineer(Co-op Program Student Employee on campus),
             Syracuse University – Syracuse, New York{" "}
           </strong>
-          <strong>October 2022 - April 2023</strong>
+          <strong>October 2022 - July 2023</strong>
           <ul style={{ textAlign: "justify" }}>
             <li>
               Transformed Associated Gastroenterologists of CNY, PC website with
